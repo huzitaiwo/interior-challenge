@@ -10,3 +10,8 @@ html {
   box-sizing: inherit;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background: #181719;
+  color: #fff;
+}
