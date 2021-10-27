@@ -23,10 +23,6 @@ h5 {
   font-weight: 500;
 }
 
-main {
-  /* margin-bottom: 100px; */
-}
-
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -131,7 +127,11 @@ nav.container {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 10px;
+  height: 300px;
   text-align: center;
   color: rgba(255, 255, 255, 0.2);
 }
@@ -184,7 +184,6 @@ footer {
   .interior-designer-card {
     width: 100%;
     width: 310px;
-    /* right: 0; */
   }
 }
 
