@@ -41,6 +41,7 @@ nav.container {
   padding: 7px;
   border: 1px solid #fff;
   border-radius: 3px;
+  text-transform: uppercase;
 }
 
 .nav-links {
@@ -144,7 +145,7 @@ footer {
 
   .hamburger {
     display: initial;
-    width: 30px;
+    width: 35px;
     position: relative;
     z-index: 3;
     cursor: pointer;
