@@ -74,6 +74,20 @@ nav.container {
   align-items: center;
 }
 
+.interior-content p {
+  padding: 30px 0;
+  max-width: 35ch;
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.read-more {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
 .interior-main-image {
   width: 100%;
 }
@@ -86,6 +100,7 @@ nav.container {
   bottom: -5%;
   right: 5%;
   padding: 15px;
+  width: 410px;
 }
 
 .card-header {
@@ -99,4 +114,17 @@ nav.container {
   border-radius: 50%;
   object-fit: cover;
   margin-right: 15px;
+}
+
+.description {
+  max-width: 17ch;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin-top: 15px;
+}
+
+footer {
+  padding: 100px 0 10px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.2);
 }
