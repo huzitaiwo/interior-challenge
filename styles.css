@@ -23,6 +23,10 @@ h5 {
   font-weight: 500;
 }
 
+main {
+  /* margin-bottom: 100px; */
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -127,7 +131,7 @@ nav.container {
 }
 
 footer {
-  padding: 100px 0 10px 0;
+  padding: 10px;
   text-align: center;
   color: rgba(255, 255, 255, 0.2);
 }
@@ -137,11 +141,13 @@ footer {
     position: relative;
     z-index: 3;
   }
+
   .hamburger {
     display: initial;
     width: 30px;
     position: relative;
     z-index: 3;
+    cursor: pointer;
   }
 
   .nav-links {
@@ -154,9 +160,38 @@ footer {
     flex-direction: column;
     justify-content: center;
     z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links.active {
+    opacity: 1;
+    pointer-events: all;
   }
 
   .nav-links li {
     margin: 20px 0;
+  }
+
+  .interior-introduction {
+    grid-template-columns: 1fr;
+  }
+
+  .read-more {
+    padding-bottom: 30px;
+  }
+  .interior-designer-card {
+    width: 100%;
+    width: 310px;
+    /* right: 0; */
+  }
+}
+
+@media (max-width: 400px) {
+  .interior-designer-card {
+    width: 300px;
+    right: 10px;
+    bottom: -150px;
   }
 }
