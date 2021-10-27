@@ -124,6 +124,10 @@ nav.container {
   margin-right: 15px;
 }
 
+.type {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .description {
   max-width: 17ch;
   font-size: 1.4rem;
