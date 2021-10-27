@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@400;500;700&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -8,19 +7,22 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  background: #181719;
-  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 h1,
 h2,
 h3,
-h5 {
-  font-weight: 500;
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+}
+
+body {
+  background: #181719;
+  color: #fff;
 }
 
 .container {
@@ -42,6 +44,8 @@ nav.container {
   border: 1px solid #fff;
   border-radius: 3px;
   text-transform: uppercase;
+  font-family: "Crimson Pro", serif;
+  font-weight: 200;
 }
 
 .nav-links {
